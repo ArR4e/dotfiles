@@ -1,0 +1,20 @@
+sudo apt install tmux
+sudo apt autoremove
+apt purge --help
+apt-get purge nvim
+sudo apt-get purge nvim
+$ sudo apt-get remove neovim
+$ sudo apt-get purge  neovim
+sudo apt-get remove neovim
+sudo apt install ./nvim-linux64.deb
+sudo apt install ./nvim-linux64.deb
+sudo apt install ./nvim-linux64.deb
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get UPDATE
+sudo apt-get -y install postgresql
+sudo apt-get -y install postgresql-contrib
+sudo apt install npm
+sudo apt-get install -y nodejs
+sudo apt-get install fzf
+sudo apt INSTALL zsh && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
