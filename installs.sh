@@ -1,4 +1,9 @@
-sudo apt install tmux
+apt install tmux
+
+cd .ssh/
+ssh-keygen -t ed25519 -C "81518066+ArR4e@users.noreply.github.com" 
+
+ssh-add ~/.ssh/id_ed25519
 apt install ./nvim-linux64.deb
 #sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 #       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
